@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.header-text {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.navbar-fluid {
+  padding: 0% 15%;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.nav-item {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+/* Title Section */
+#title {
+  background-color: #33cc00;
+  color: white;
+}
+
+.title-text {
+  font-size: 3.5rem;
+  text-align: left;
+}
+
+.col-lg-6 {
+  position: relative;
+}
+
+.title-image {
+  width: 60%;
+  position: absolute;
+  right: 10%;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.row {
+  margin-top: 5;
+}
+
+#features {
+  position: relative;
+  background-color: white;
+}
+
+.feature-title {
+  margin-top: 5%
+}
+
+.features-icon {
+  color: #33cc00;
+  font-size: 4rem;
+}
+
+.features-icon:hover {
+  color: #269900;
+}
+
+.feature-element {
+  text-align: center;
+  padding: 5%;
+}
+
+#testimonials {
+  background-color: #269900;
+  text-align: center;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 3%;
+}
+
+#press {
+  background-color: #269900;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-image {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+.price-btn {
+  width: 100%;
+}
+
+.price-coloumn {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #33cc00;
+  color: white;
+  text-align: center;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+
+.social-icon {
+  color: black;
+  margin: 3%;
+}
+
+.social-icon:hover {
+  color: #33cc00;
+}
+
+.footer-p {
+  margin-top: 3%;
+}
+
+/* Coming Soon */
+
+.coming-soon{
+  margin: 10%;
+}
