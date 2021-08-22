@@ -41,11 +41,11 @@ p {
 #title {
   background-color: #33cc00;
   color: white;
+  text-align: left;
 }
 
 .title-text {
   font-size: 3.5rem;
-  text-align: left;
 }
 
 .col-lg-6 {
